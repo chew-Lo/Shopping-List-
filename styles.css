@@ -109,7 +109,7 @@ header h1 {
 }
 
 .btn-primary:hover {
-    background: black;
+    background: rgb(30, 29, 29);
 }
 
 .btn-secondary {
@@ -118,7 +118,7 @@ header h1 {
 }
 
 .btn-secondary:hover {
-    background: dimgray;
+    background: black;
 }
 
 .btn-danger {
@@ -147,7 +147,7 @@ header h1 {
 }
 
 .btn-icon:hover {
-    background: black;
+    background: dimgray;
 }
 
 .list-header {
@@ -215,14 +215,14 @@ header h1 {
     align-items: center;
     gap: 10px;
     padding: 15px;
-    background: black;
+    background: grey;
     border-radius: 4px;
     margin-bottom: 8px;
     color: white;
 }
 
 .list-item:hover {
-    background: dimgrey;
+    background: dimgray;
 }
 
 .list-item.checked {
@@ -231,7 +231,7 @@ header h1 {
 
 .list-item.checked .item-text {
     text-decoration: line-through;
-    color: dimgray;
+    color: gainsboro;
 }
 
 .checkbox {
