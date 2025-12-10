@@ -1,6 +1,6 @@
 # Shopping List App
 
-
+A simple shopping list web application where you can create lists and manage your shopping items together.
 
 ## 🛒 Features
 
@@ -29,20 +29,27 @@
    - `ui.js`
    - `storage.js`
 
-2. **Open the app** - Double-click `index.html` to open in your browser
+2. **Start a local server** - Choose one of these methods:
 
-3. **Start shopping** - Create your first list and start adding items!
+   **Using Python:**
+   ```bash
+   # Python 3
+   python -m http.server 8080
+   # Python 2
+   python -m SimpleHTTPServer 8080
+   ```
+
+   **Using VS Code:**
+   - Install the "Live Server" extension
+   - Right-click `index.html` and select "Open with Live Server"
+
+3. **Open in browser** - Go to `http://localhost:8080`
+
+4. **Start shopping** - Create your first list and start adding items!
 
 ## 🛠️ Built With
 
 - HTML, CSS, JavaScript
 - localStorage for data persistence
-- No frameworks or dependencies required
 
-## 📝 Notes
-
-- **Browser Storage**: Lists are stored locally in your browser's localStorage
-- **Sharing Limitation**: List IDs work on the same browser/device only
-- **Privacy**: All data stays on your device, nothing is sent to external servers
-
-**Happy shopping! But not too much.**
+**Happy shopping!**
